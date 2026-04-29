@@ -107,7 +107,7 @@ def extraer_metadatos(ruta_imagen):
  
 def procesar_carpeta(carpeta, archivo_salida):
     """Recorre una carpeta, extrae metadatos de cada imagen y guarda el CSV."""
-    carpeta = Path(carpeta)
+    carpeta = "DataSetHuecosBogota"
     if not carpeta.exists():
         print(f"ERROR: La carpeta '{carpeta}' no existe.")
         return
