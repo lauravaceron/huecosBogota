@@ -39,9 +39,9 @@ image_files = [
 
 def clasificar_gravedad(area_pixeles, area_imagen):
     porcentaje = area_pixeles / area_imagen
-    if porcentaje < 0.02:
+    if porcentaje < 0.01:
         return "leve"
-    elif porcentaje < 0.05:
+    elif porcentaje < 0.03:
         return "mediano"
     else:
         return "grave"
