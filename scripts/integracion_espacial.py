@@ -1,9 +1,10 @@
 """
 Integración espacial de daños viales con datasets urbanos de Bogotá
 Toma coordenadas_fotos.csv y lo cruza con datos abiertos de la ciudad.
-Uso: python integracion_espacial.py
+Uso: python integracion_espacial.py (desde carpeta scripts/)
 """
 
+import re
 import json
 import pandas as pd
 import geopandas as gpd
@@ -15,11 +16,10 @@ from shapely.geometry import Point
 # ──────────────────────────────────────────
 
 RUTA_CSV         = "../datos/coordenadas_fotos.csv"
-CARPETA_DATOS    = "../datosAbiertos"
-RUTA_LOCALIDADES = f"{CARPETA_DATOS}/localidades.geojson"
-RUTA_ALCALDIAS   = f"{CARPETA_DATOS}/alcaldias.json"
-RUTA_TRONCALES   = f"{CARPETA_DATOS}/rutas_troncales.geojson"
-RUTA_CAMARAS     = f"{CARPETA_DATOS}/camaras.csv"
+RUTA_LOCALIDADES = "../datosAbiertos/localidades.geojson"
+RUTA_ALCALDIAS   = "../datosAbiertos/alcaldias.json"
+RUTA_TRONCALES   = "../datosAbiertos/rutas_troncales.geojson"
+RUTA_CAMARAS     = "../datosAbiertos/camaras.csv"
 RUTA_SALIDA      = "../datos/datos_integrados.csv"
 
 CRS        = "EPSG:4326"
@@ -30,23 +30,40 @@ CRS_METROS = "EPSG:3116"
 # PASO 1 — Cargar y limpiar coordenadas
 # ──────────────────────────────────────────
 
+def limpiar_coord(valor):
+    """Limpia coordenadas con formatos inconsistentes y devuelve float o None."""
+    if pd.isna(valor):
+        return None
+    s = str(valor).strip()
+    s = s.rstrip("NSEWnsew").strip()
+    s = re.sub(r"(\d)\s+(\d)", r"\1.\2", s)
+    s = re.sub(r"(?<=\d)-(?=\d)", ".", s)
+    s = s.replace(" ", "")
+    try:
+        v = float(s)
+        return v if v != 0.0 else None
+    except Exception:
+        return None
+
 print("\n[1/5] Cargando coordenadas...")
-df = pd.read_csv(RUTA_CSV)
+df = pd.read_csv(RUTA_CSV, dtype=str, index_col=0)
+df.columns = [c.strip() for c in df.columns]
 
 total_original = len(df)
 
-# Filtrar coordenadas inválidas:
-# - Nulos
-# - Valores tipo "4." o "-74." (incompletos)
-# - Longitudes mal formateadas como "74-076867"
-df = df.dropna(subset=["latitud", "longitud"])
-df = df[df["latitud"].astype(str).str.match(r"^-?\d+\.\d{2,}$")]
-df = df[df["longitud"].astype(str).str.match(r"^-?\d+\.\d{2,}$")]
-df["latitud"]  = df["latitud"].astype(float)
-df["longitud"] = df["longitud"].astype(float)
+df["latitud"]  = df["latitud"].apply(limpiar_coord)
+df["longitud"] = df["longitud"].apply(limpiar_coord)
 
-# Filtrar que estén dentro del rango geográfico de Bogotá
-df = df[(df["latitud"].between(3.5, 5.5)) & (df["longitud"].between(-75.5, -73.5))]
+df = df.dropna(subset=["latitud", "longitud"])
+
+# Longitud positiva en Colombia es error — corregir signo
+df.loc[df["longitud"] > 0, "longitud"] = -df.loc[df["longitud"] > 0, "longitud"]
+
+# Filtrar rango geográfico de Bogotá
+df = df[
+    (df["latitud"].between(3.5, 5.5)) &
+    (df["longitud"].between(-75.5, -73.5))
+]
 
 descartadas = total_original - len(df)
 print(f"      Total original   : {total_original}")
@@ -142,7 +159,7 @@ print(f"      Distancia promedio: {pd.Series(dist_troncal).mean():.0f} m")
 
 print("\n[5/5] Calculando distancia a cámaras...")
 
-camaras_df = pd.read_csv(RUTA_CAMARAS).dropna(subset=["LATITUD", "LONGITUD"])
+camaras_df = pd.read_csv(RUTA_CAMARAS, encoding="utf-8-sig").dropna(subset=["LATITUD", "LONGITUD"])
 gdf_camaras = gpd.GeoDataFrame(
     camaras_df,
     geometry=[Point(lon, lat) for lon, lat in zip(camaras_df["LONGITUD"], camaras_df["LATITUD"])],
@@ -163,7 +180,7 @@ print(f"      Distancia promedio: {pd.Series(dist_camara).mean():.0f} m")
 # ──────────────────────────────────────────
 
 columnas_finales = [
-    "archivo", "latitud", "longitud", "metodo",
+    "archivo", "latitud", "longitud",
     "localidad", "alcaldia_cercana", "dist_alcaldia_m",
     "dist_troncal_m", "dist_camara_m"
 ]
