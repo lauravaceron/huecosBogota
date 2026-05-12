@@ -9,12 +9,12 @@ import pytesseract
 # CONFIGURACIÓN
 # ========================
 
-CARPETA_FOTOS = "../DataSetHuecosBogota"
-CSV_SALIDA = "../datos/coordenadas_fotos.csv"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# En Mac normalmente no necesitas esto, pero por si acaso:
+CARPETA_FOTOS = os.path.join(BASE_DIR, "DataSetHuecosBogota")
+CSV_SALIDA = os.path.join(BASE_DIR, "datos", "coordenadas_fotos.csv")
+
 # pytesseract.pytesseract.tesseract_cmd = "/opt/homebrew/bin/tesseract"
-
 
 # ========================
 # FUNCIONES
@@ -63,7 +63,7 @@ def obtener_gps_exif(ruta_imagen):
 
         return lat, lon
 
-    except:
+    except Exception:
         return None, None
 
 
@@ -72,7 +72,6 @@ def obtener_gps_ocr(ruta_imagen):
         imagen = Image.open(ruta_imagen)
         texto = pytesseract.image_to_string(imagen)
 
-        # Busca coordenadas tipo: 4.736736, -74.066002
         patron = r"(-?\d+\.\d+)[,\s]+(-?\d+\.\d+)"
         coincidencias = re.findall(patron, texto)
 
@@ -85,25 +84,51 @@ def obtener_gps_ocr(ruta_imagen):
 
         return None, None
 
-    except:
+    except Exception:
         return None, None
 
 
 # ========================
-# PROCESAMIENTO
+# LEER CSV EXISTENTE
 # ========================
 
-extensiones = (".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff")
+campos = ["index", "archivo", "latitud", "longitud", "metodo"]
 
-# 🔥 ORDENAR POR FECHA (como Finder)
+registros_existentes = []
+archivos_ya_procesados = set()
+
+if os.path.exists(CSV_SALIDA):
+    with open(CSV_SALIDA, "r", newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+
+        for fila in reader:
+            registros_existentes.append(fila)
+            archivos_ya_procesados.add(fila["archivo"])
+
+print(f"📌 Fotos ya registradas en el CSV: {len(archivos_ya_procesados)}")
+
+
+# ========================
+# PROCESAR SOLO FOTOS NUEVAS
+# ========================
+
+extensiones = (".jpg", ".jpeg", ".png", ".webp", ".tif", ".tiff", ".heic")
+
 archivos = sorted(
     [f for f in os.listdir(CARPETA_FOTOS) if f.lower().endswith(extensiones)],
     key=lambda x: os.path.getmtime(os.path.join(CARPETA_FOTOS, x))
 )
 
-resultados = []
+nuevos_resultados = []
 
-for i, archivo in enumerate(archivos):
+ultimo_index = len(registros_existentes)
+
+for archivo in archivos:
+
+    if archivo in archivos_ya_procesados:
+        print(f"⏭️ Ya existe, se omite: {archivo}")
+        continue
+
     ruta = os.path.join(CARPETA_FOTOS, archivo)
 
     lat, lon = obtener_gps_exif(ruta)
@@ -116,23 +141,31 @@ for i, archivo in enumerate(archivos):
     if lat is None or lon is None:
         metodo = "SIN_COORDENADAS"
 
-    resultados.append({
-        "index": i,
+    nuevos_resultados.append({
+        "index": ultimo_index,
         "archivo": archivo,
         "latitud": lat,
         "longitud": lon,
         "metodo": metodo
     })
 
+    print(f"✅ Nueva foto procesada: {archivo} | {metodo}")
+
+    ultimo_index += 1
+
+
 # ========================
-# GUARDAR CSV
+# GUARDAR SIN BORRAR LO ANTERIOR
 # ========================
+
+todos_los_resultados = registros_existentes + nuevos_resultados
 
 with open(CSV_SALIDA, "w", newline="", encoding="utf-8") as f:
-    campos = ["index", "archivo", "latitud", "longitud", "metodo"]
     writer = csv.DictWriter(f, fieldnames=campos)
-
     writer.writeheader()
-    writer.writerows(resultados)
+    writer.writerows(todos_los_resultados)
 
-print("✅ Listo. CSV generado en orden por fecha:", CSV_SALIDA)
+print("✅ Listo.")
+print(f"📄 CSV actualizado: {CSV_SALIDA}")
+print(f"➕ Nuevas fotos agregadas: {len(nuevos_resultados)}")
+print(f"📌 Total en CSV: {len(todos_los_resultados)}")
