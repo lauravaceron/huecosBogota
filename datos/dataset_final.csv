@@ -1,66 +1,70 @@
 archivo,latitud,longitud,localidad,alcaldia_cercana,dist_alcaldia_m,dist_troncal_m,dist_camara_m,gravedad
 4bae11b8a58c45a985334a672d26e72b.jpg,4.63367,-74.07383,TEUSAQUILLO,Alcaldía Local de Teusaquillo,497,3,1745,leve
 045fdae0003b4834927bce13655bf347.jpg,4.598110833333333,-74.07304722222221,CANDELARIA,Alcaldía Local de La Candelaria,270,6,922,leve
+111a456554a147d49d7d47c0a44aaaf9.jpeg,4.0,-74.0,,Alcaldía Local de Sumapaz,28636,46271,64961,grave
 ec37ffec8ac54790a89c042fae027c6f.jpg,4.63366,-74.07398,TEUSAQUILLO,Alcaldía Local de Teusaquillo,500,2,1755,leve
 7b299f6b6d644eaf9cf7bfac2265112e.jpeg,4.705502777777778,-74.04229722222222,USAQUEN,Alcaldía Local de Usaquén,1669,35,1269,leve
-dd1f202c438b437dbfc63f5b2e92bacd.jpg,4.5943,-74.0799,CANDELARIA,Alcaldía Local de La Candelaria,1116,85,1490,mediano
-9323a914f4694b879a06f2f5f2355623.jpg,4.6023,-74.075,SANTA FE,Alcaldía Local de La Candelaria,439,2,467,leve
+dd1f202c438b437dbfc63f5b2e92bacd.jpg,4.5943,-74.0799,CANDELARIA,Alcaldía Local de La Candelaria,1116,85,1490,grave
+9323a914f4694b879a06f2f5f2355623.jpg,4.6023,-74.075,SANTA FE,Alcaldía Local de La Candelaria,439,2,467,mediano
 daa7091e966c432c82c8d4bf9c9b8990.jpeg,4.5943,-74.0762,CANDELARIA,Alcaldía Local de La Candelaria,816,98,1360,mediano
 96f04d440eb14cf590fa929ac118d522.jpeg,4.738730555555556,-74.05739722222222,SUBA,Alcaldía Local de Suba,2971,112,1758,leve
-c42f9fa185bf40448d1c2e833f71f066.jpeg,4.6023,-74.0662,CANDELARIA,Alcaldía Local de Santafé,642,66,976,mediano
+c42f9fa185bf40448d1c2e833f71f066.jpeg,4.6023,-74.0662,CANDELARIA,Alcaldía Local de Santafé,642,66,976,grave
 218e91a681d24e8abbc8b1e9f672a3c2.jpg,4.7304,-74.0623,SUBA,Alcaldía Local de Suba,2674,135,1525,leve
-aa06606d876047e4809ebbd1cb2702d1.jpg,4.593,-74.0796,CANDELARIA,Alcaldía Local de La Candelaria,1180,159,1607,leve
+aa06606d876047e4809ebbd1cb2702d1.jpg,4.593,-74.0796,CANDELARIA,Alcaldía Local de La Candelaria,1180,159,1607,mediano
 a7f58a501bda43c8a33b4903778a3c88.jpeg,4.752980555555555,-74.08515277777778,SUBA,Alcaldía Local de Suba,1364,5,1374,leve
-503bce24384d4fe1a11df87686b67ee7.jpeg,4.666358333333334,-74.07870555555556,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1057,34,531,leve
-2fd7a65c6ec54944b28607550f14a416.jpg,4.5933,-74.0775,CANDELARIA,Alcaldía Local de La Candelaria,993,170,1500,leve
-7dfef5719abe45ae80fb88158e0d4d20.jpeg,4.6965,-74.0583,SUBA,Alcaldía Local de Usaquén,2986,291,278,mediano
+503bce24384d4fe1a11df87686b67ee7.jpeg,4.666358333333334,-74.07870555555556,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1057,34,531,mediano
+2fd7a65c6ec54944b28607550f14a416.jpg,4.5933,-74.0775,CANDELARIA,Alcaldía Local de La Candelaria,993,170,1500,mediano
+7dfef5719abe45ae80fb88158e0d4d20.jpeg,4.6965,-74.0583,SUBA,Alcaldía Local de Usaquén,2986,291,278,grave
 c3a3b6e602c0401681f5f7ad4ac5da6f.jpeg,4.5929,-74.0793,CANDELARIA,Alcaldía Local de La Candelaria,1163,194,1605,mediano
 51809f5d872f4992804260e1442e188c.jpg,4.7304,-74.0624,SUBA,Alcaldía Local de Suba,2664,124,1516,leve
 81546b4779e64973bf576bc58041b1d3.jpg,4.597109722222222,-74.07356083333333,CANDELARIA,Alcaldía Local de La Candelaria,394,4,1028,leve
-1af10532ffcf490fb529ec76c60b4a79.jpeg,4.705666666666667,-74.041825,USAQUEN,Alcaldía Local de Usaquén,1644,88,1313,leve
+1af10532ffcf490fb529ec76c60b4a79.jpeg,4.705666666666667,-74.041825,USAQUEN,Alcaldía Local de Usaquén,1644,88,1313,mediano
 3aca81d3222949c6acfaaffe7bc82d4a.jpeg,4.671029,-74.049879,CHAPINERO,Alcaldía Local de Usaquén,3356,44,893,leve
-e50e8457a3494841a89b53067176c19f.jpeg,4.738566666666666,-74.05756388888888,SUBA,Alcaldía Local de Suba,2954,134,1784,leve
-17586ffb09274565a9e3e543c258de31.jpeg,4.5997,-74.0733,CANDELARIA,Alcaldía Local de La Candelaria,185,121,744,mediano
-dfd543f431784222bb9238a72fd239f5.jpeg,4.5933,-74.0768,CANDELARIA,Alcaldía Local de La Candelaria,945,101,1481,leve
+e50e8457a3494841a89b53067176c19f.jpeg,4.738566666666666,-74.05756388888888,SUBA,Alcaldía Local de Suba,2954,134,1784,mediano
+17586ffb09274565a9e3e543c258de31.jpeg,4.5997,-74.0733,CANDELARIA,Alcaldía Local de La Candelaria,185,121,744,grave
+dfd543f431784222bb9238a72fd239f5.jpeg,4.5933,-74.0768,CANDELARIA,Alcaldía Local de La Candelaria,945,101,1481,mediano
 97e1aeb609a645d7b5e12d938b4ea9e2.jpeg,4.752569444444444,-74.08464166666666,SUBA,Alcaldía Local de Suba,1315,3,1403,leve
 85fcddb63ba447f4ae5e41df7b75573b.jpeg,4.605753,-74.073796,SANTA FE,Alcaldía Local de Santafé,414,4,74,leve
 59de7f42961e4fa68918dba9098ba3bd.jpeg,4.736986111111111,-74.06404166666667,SUBA,Alcaldía Local de Suba,2264,23,1776,leve
 4410e948e3434641861cba9e64c09daf.jpg,4.593,-74.0797,CANDELARIA,Alcaldía Local de La Candelaria,1189,148,1611,grave
 91d7be1fc175408a880660eb7d4d2098.jpeg,4.671591,-74.052277,CHAPINERO,Alcaldía Local de Barrios Unidos,3226,227,1130,leve
-f5908bdfbc2e4a61823b4cb6d084d8d0.jpeg,4.68331689,-74.06790979,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1691,454,1089,leve
+f5908bdfbc2e4a61823b4cb6d084d8d0.jpeg,4.68331689,-74.06790979,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1691,454,1089,mediano
 87f44ffa56954ea8b23c06c51d47f377.jpeg,4.737055555555556,-74.06365833333334,SUBA,Alcaldía Local de Suba,2304,1,1772,leve
 5806d4d13ac749ff976ad5d971706ff0.jpeg,4.68331284,-74.06791695,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1690,454,1090,mediano
-93f82279893644f2abc1737b201b0a8d.jpg,4.5852916666666665,-74.13650333333334,TUNJUELITO,Alcaldía Local de Tunjuelito,2155,2,1213,leve
+93f82279893644f2abc1737b201b0a8d.jpg,4.5852916666666665,-74.13650333333334,TUNJUELITO,Alcaldía Local de Tunjuelito,2155,2,1213,mediano
 b567b512c3c1407ab7e07f10a3ce46fe.jpeg,4.738022222222222,-74.05766388888888,SUBA,Alcaldía Local de Suba,2949,195,1837,leve
-d8ada79c3a6342c69f5eeab4475a4e66.jpeg,4.68374254,-74.06735727,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1768,432,1027,mediano
+d8ada79c3a6342c69f5eeab4475a4e66.jpeg,4.68374254,-74.06735727,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1768,432,1027,grave
 34b9a95b79624fd08f070d2a5fed52bf.jpg,4.5928,-74.08,CANDELARIA,Alcaldía Local de La Candelaria,1228,125,1645,grave
-9ff8ae6fea4546cfa00a95030da25b9a.jpeg,4.736897222222222,-74.06366666666666,SUBA,Alcaldía Local de Suba,2306,15,1789,leve
+9ff8ae6fea4546cfa00a95030da25b9a.jpeg,4.736897222222222,-74.06366666666666,SUBA,Alcaldía Local de Suba,2306,15,1789,mediano
 16a396e507ad4835850db0a8d3df502e.jpg,4.599673055555555,-74.07175444444444,CANDELARIA,Alcaldía Local de La Candelaria,51,6,784,leve
-6bdd9bb20aa1468087b25e689d9123b1.jpeg,4.755,-74.09,SUBA,Alcaldía Local de Suba,1712,144,1107,mediano
+6bdd9bb20aa1468087b25e689d9123b1.jpeg,4.755,-74.09,SUBA,Alcaldía Local de Suba,1712,144,1107,grave
 5cfaee4f00ac4362a79288454a684c22.jpg,4.589919722222222,-74.12465972222222,RAFAEL URIBE URIBE,Alcaldía Local de Rafael Uribe Uribe,1465,1,265,leve
 f9c46c26a9a6422ea23d425ea5cec328.jpeg,4.705577777777778,-74.03666666666666,USAQUEN,Alcaldía Local de Usaquén,1299,105,1386,leve
-94294707ed014a9f9435a848f0492c27.jpeg,4.755594444444444,-74.079925,SUBA,Alcaldía Local de Suba,1713,3,1640,leve
-eea24edf49d5475c80c7d7eae144f563.jpeg,4.7535,-74.0855,SUBA,Alcaldía Local de Suba,1425,40,1369,leve
-d6a647acc4d74b0b9623c361457fbad3.jpeg,4.605733,-74.073813,SANTA FE,Alcaldía Local de Santafé,417,7,76,leve
+94294707ed014a9f9435a848f0492c27.jpeg,4.755594444444444,-74.079925,SUBA,Alcaldía Local de Suba,1713,3,1640,mediano
+eea24edf49d5475c80c7d7eae144f563.jpeg,4.7535,-74.0855,SUBA,Alcaldía Local de Suba,1425,40,1369,mediano
+d6a647acc4d74b0b9623c361457fbad3.jpeg,4.605733,-74.073813,SANTA FE,Alcaldía Local de Santafé,417,7,76,mediano
 595de4a7e9a84b5091fc62f3e7e9510f.jpg,4.6021,-74.0758,CANDELARIA,Alcaldía Local de La Candelaria,506,16,516,leve
 9cb59bce7e474c5b9a7ee1e37507c4a0.jpg,4.63038,-74.07592,TEUSAQUILLO,Alcaldía Local de Teusaquillo,361,73,1405,leve
 d4d3f8b8dbf34f8997326b71200bbe03.jpeg,4.696361111111111,-74.08468611111111,SUBA,Alcaldía Local de Engativá,1791,32,1471,leve
-041dcb98d66c432d9c9d68fac5556975.jpeg,4.6024,-74.0662,CANDELARIA,Alcaldía Local de Santafé,634,56,971,mediano
-4b4ae4cec28c4f7694893aa575a0c015.jpeg,4.5964,-74.0752,CANDELARIA,Alcaldía Local de La Candelaria,568,113,1114,mediano
+041dcb98d66c432d9c9d68fac5556975.jpeg,4.6024,-74.0662,CANDELARIA,Alcaldía Local de Santafé,634,56,971,grave
+4b4ae4cec28c4f7694893aa575a0c015.jpeg,4.5964,-74.0752,CANDELARIA,Alcaldía Local de La Candelaria,568,113,1114,grave
 4a15501084de42b2b8c97aa98fe5a7bf.jpeg,4.666358333333334,-74.07870555555556,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1057,34,531,leve
 82fa888d901d4b3db675aef0a15830bc.jpeg,4.607275,-74.074468,SANTA FE,Alcaldía Local de Santafé,486,1,81,grave
 5e40ee0dfd284240b30d4e91ee616b87.jpeg,4.738566666666666,-74.05756388888888,SUBA,Alcaldía Local de Suba,2954,134,1784,leve
 57fec4dd77d14b4f9bd9f27e39505a61.jpeg,4.694852777777778,-74.08158055555555,SUBA,Alcaldía Local de Engativá,2013,126,1166,leve
 79a936c38c4a4cfa9827202f3b073d77.jpg,4.63034,-74.07566,TEUSAQUILLO,Alcaldía Local de Teusaquillo,332,43,1424,leve
-fb3f60b8aee04ce990174c8f4678f9ce.jpg,4.6041,-74.0733,SANTA FE,Alcaldía Local de Santafé,442,5,265,leve
+fb3f60b8aee04ce990174c8f4678f9ce.jpg,4.6041,-74.0733,SANTA FE,Alcaldía Local de Santafé,442,5,265,mediano
 34a71b5e19044521ad7e8ed98230ef07.jpeg,4.677638,-74.041867,CHAPINERO,Alcaldía Local de Usaquén,2250,185,419,leve
+6f28d90dd0084c89a9002684aca0f7c5.jpeg,4.0,-74.0,,Alcaldía Local de Sumapaz,28636,46271,64961,grave
 934cb1ad29304640841949576e2030fc.jpg,4.585689722222222,-74.13195138888888,TUNJUELITO,Alcaldía Local de Rafael Uribe Uribe,1960,4,716,leve
 27388d69e01f49eca2bde70d7159b31a.jpeg,4.68597138,-74.0648626,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,2133,80,789,mediano
 1579e5b8112c4510bd6bc91a0b14575f.jpg,4.63037,-74.07552,TEUSAQUILLO,Alcaldía Local de Teusaquillo,319,28,1438,leve
 fddd7c5732784030afc88c7ef6bc579c.jpg,4.5974,-74.0778,CANDELARIA,Alcaldía Local de La Candelaria,743,168,1081,leve
-accda68540da44b69f59d4b2b4c8d837.jpeg,4.736463888888889,-74.06253055555555,SUBA,Alcaldía Local de Suba,2439,9,1853,leve
-884f41e4cc0a4044a0c69f9aedc77835.jpg,4.5959,-74.0792,CANDELARIA,Alcaldía Local de La Candelaria,956,124,1297,leve
-bcff9cb379b045589a0d782563955105.jpeg,4.604743,-74.076452,SANTA FE,Alcaldía Local de Santafé,728,114,329,leve
+accda68540da44b69f59d4b2b4c8d837.jpeg,4.736463888888889,-74.06253055555555,SUBA,Alcaldía Local de Suba,2439,9,1853,mediano
+ff3b7bd92a0a425796309cfd6ddf618c.jpeg,4.603989,-74.076867,SANTA FE,Alcaldía Local de La Candelaria,716,110,416,mediano
+884f41e4cc0a4044a0c69f9aedc77835.jpg,4.5959,-74.0792,CANDELARIA,Alcaldía Local de La Candelaria,956,124,1297,mediano
+467ab9c9f10c4b058e7d17ba145a8890.jpeg,4.677161,-74.042142,CHAPINERO,Alcaldía Local de Usaquén,2311,206,363,leve
+bcff9cb379b045589a0d782563955105.jpeg,4.604743,-74.076452,SANTA FE,Alcaldía Local de Santafé,728,114,329,mediano
 78f54e31779e46a3bd99605a1ebb4a09.jpeg,4.7550027777777775,-74.0800861111111,SUBA,Alcaldía Local de Suba,1645,7,1648,leve
 b0bb6bba36dd46549a212d60f962aae7.jpg,4.7279,-74.0625,SUBA,Alcaldía Local de Suba,2783,45,1373,leve
 4b6f2e1c40e34351a920c91d5cd7854e.jpg,4.7281,-74.0624,SUBA,Alcaldía Local de Suba,2782,70,1393,leve
@@ -68,26 +72,27 @@ b0bb6bba36dd46549a212d60f962aae7.jpg,4.7279,-74.0625,SUBA,Alcaldía Local de Sub
 9573a40d39c840a6b8a22ccfc581c46f.jpeg,4.695413888888889,-74.08050555555555,SUBA,Alcaldía Local de Engativá,2147,1,1187,leve
 1992d3005ddc4cda8c130bfbaf7f4d71.jpeg,4.706841666666667,-74.04259444444445,USAQUEN,Alcaldía Local de Usaquén,1797,5,1196,leve
 d77b52f6f3e142eabb1759ee671a6f98.jpg,4.6273,-74.0672,CHAPINERO,Alcaldía Local de Teusaquillo,665,2,2107,leve
-d62da32327044396894cb97897ddd25e.jpeg,4.7512,-74.0885,SUBA,Alcaldía Local de Suba,1260,160,953,leve
+d62da32327044396894cb97897ddd25e.jpeg,4.7512,-74.0885,SUBA,Alcaldía Local de Suba,1260,160,953,mediano
 c3baae1b85fc4a7ca7fbcc048c6fe224.jpg,4.5953897222222215,-74.07454694444444,CANDELARIA,Alcaldía Local de La Candelaria,613,5,1219,leve
-915823ac9d0549759de54b92e9392589.jpeg,4.5448,-74.0985,SAN CRISTOBAL,Alcaldía Local de San Cristóbal,3085,30,4010,leve
+79b5ca3752da4a93999c85e6ac067467.jpg,4.0,-74.0,,Alcaldía Local de Sumapaz,28636,46271,64961,mediano
+915823ac9d0549759de54b92e9392589.jpeg,4.5448,-74.0985,SAN CRISTOBAL,Alcaldía Local de San Cristóbal,3085,30,4010,mediano
 d9c778c0a5184d199c6fa75e337b6316.jpg,4.595386944444444,-74.07454472222221,CANDELARIA,Alcaldía Local de La Candelaria,613,5,1219,leve
 e42c53d7298a49b385651e33b69a41df.jpeg,4.6661472222222224,-74.07894166666667,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1073,69,562,leve
 c88953486897485fb6996fb99ea7c088.jpeg,4.665747222222223,-74.07926111111111,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1110,124,609,leve
 b8840a577bee455b9644bcc518fd0db8.jpeg,4.6971,-74.0587,SUBA,Alcaldía Local de Usaquén,3035,324,327,leve
 2dbe2022cc6140249304694988f8ae9d.jpeg,4.665747222222223,-74.07926111111111,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1110,124,609,leve
-b16d152972e0430891bf7b3d2fed88b2.jpeg,4.5977,-74.0744,CANDELARIA,Alcaldía Local de La Candelaria,404,110,963,leve
-67fd3279392145f08d88f9a4e83abf21.jpeg,4.6834999,-74.0678385,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1708,458,1080,leve
-6df05012ddc04521b0fb6540d8345782.jpeg,4.5977,-74.0744,CANDELARIA,Alcaldía Local de La Candelaria,404,110,963,mediano
+b16d152972e0430891bf7b3d2fed88b2.jpeg,4.5977,-74.0744,CANDELARIA,Alcaldía Local de La Candelaria,404,110,963,mediano
+67fd3279392145f08d88f9a4e83abf21.jpeg,4.6834999,-74.0678385,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1708,458,1080,mediano
+6df05012ddc04521b0fb6540d8345782.jpeg,4.5977,-74.0744,CANDELARIA,Alcaldía Local de La Candelaria,404,110,963,grave
 09155acd7b5e4a1da9de0751e477752b.jpeg,4.738452777777778,-74.05750277777777,SUBA,Alcaldía Local de Suba,2962,145,1789,leve
 024dc6c7288041fbb83b9292b63ac0da.jpg,4.585788055555556,-74.13154499999999,TUNJUELITO,Alcaldía Local de Rafael Uribe Uribe,1920,7,670,leve
 e3e00027e5f540f7bbc8e9130c412b55.jpg,4.600570555555556,-74.07158083333333,CANDELARIA,Alcaldía Local de La Candelaria,50,14,698,leve
 d0c10e86a6d242c5a826af6f22efe2ed.jpeg,4.697,-74.0581,SUBA,Alcaldía Local de Usaquén,2967,278,260,mediano
 e2609e2f04244302872fdc3a8d2dd6c4.jpeg,4.696697222222222,-74.078575,SUBA,Alcaldía Local de Barrios Unidos,2348,16,1291,leve
-7137031ef87a4daf8f1cec10a94914db.jpg,4.604,-74.0732,SANTA FE,Alcaldía Local de Santafé,441,8,279,leve
+7137031ef87a4daf8f1cec10a94914db.jpg,4.604,-74.0732,SANTA FE,Alcaldía Local de Santafé,441,8,279,mediano
 2811497f15044415b8409e22fa63043d.jpg,4.6007,-74.0775,CANDELARIA,Alcaldía Local de La Candelaria,648,1,741,leve
 6ace3c706bd84732b4aa84cf715cab46.jpg,4.63046,-74.07504,TEUSAQUILLO,Alcaldía Local de Teusaquillo,275,12,1485,leve
-50bce00aaf89461dbbb7e1f9919768a3.jpeg,4.68979804,-74.06760557,SUBA,Alcaldía Local de Barrios Unidos,2167,2,1163,leve
+50bce00aaf89461dbbb7e1f9919768a3.jpeg,4.68979804,-74.06760557,SUBA,Alcaldía Local de Barrios Unidos,2167,2,1163,mediano
 d0a9dc8a0bd245ca847b1708e0af3a87.jpg,4.7275,-74.0623,SUBA,Alcaldía Local de Suba,2825,11,1377,leve
 8c427db87c8d4d07a649c8f0fe8543e2.jpeg,4.680277,-74.040497,CHAPINERO,Alcaldía Local de Usaquén,1922,63,736,leve
 2699994b7f554dfa86e7a0a269ddf349.jpg,4.6014,-74.0772,CANDELARIA,Alcaldía Local de La Candelaria,628,1,657,leve
@@ -97,58 +102,59 @@ cf12ff9a8ed947f19e19d450cb041f44.jpeg,4.752,-74.0915,SUBA,Alcaldía Local de Sub
 f68de8d0637c4f23b3b0b25bb6e2d651.jpg,4.63034,-74.07549,TEUSAQUILLO,Alcaldía Local de Teusaquillo,314,25,1438,leve
 1b7e9eb034ba4fafb139420d805b3c62.jpeg,4.5987,-74.0739,CANDELARIA,Alcaldía Local de La Candelaria,292,121,851,grave
 30b3d525a7104fcb80538213351b41aa.jpg,4.593,-74.0796,CANDELARIA,Alcaldía Local de La Candelaria,1180,159,1607,leve
-000bc4423c5e49589b668b8e93094d68.jpeg,4.6026,-74.0665,CANDELARIA,Alcaldía Local de Santafé,595,54,931,mediano
+000bc4423c5e49589b668b8e93094d68.jpeg,4.6026,-74.0665,CANDELARIA,Alcaldía Local de Santafé,595,54,931,grave
 9db0fae6331e4d38ac1c41feaffeb413.jpeg,4.60488,-74.076182,SANTA FE,Alcaldía Local de Santafé,695,96,296,grave
-5687dfdd30b34cb4a7140f86fcb3b445.jpeg,4.697627777777778,-74.07688055555555,SUBA,Alcaldía Local de Barrios Unidos,2478,49,1394,leve
+5687dfdd30b34cb4a7140f86fcb3b445.jpeg,4.697627777777778,-74.07688055555555,SUBA,Alcaldía Local de Barrios Unidos,2478,49,1394,mediano
 d9702074e98b49b9938aa2440cd73965.jpeg,4.738452777777778,-74.05750277777777,SUBA,Alcaldía Local de Suba,2962,145,1789,leve
 c70b0dfae5844682810f7fe0a1904212.jpeg,4.6987,-74.0573,SUBA,Alcaldía Local de Usaquén,2899,124,287,leve
 f6fd14e2f2624508b22abbda44a62b88.jpeg,4.680492,-74.040361,CHAPINERO,Alcaldía Local de Usaquén,1893,35,764,leve
+461d9efc013146b498bf77a072409a57.jpeg,4.0,-74.0,,Alcaldía Local de Sumapaz,28636,46271,64961,mediano
 5948901bd0484b1583a1e7f3315f2539.jpeg,4.605656,-74.075711,SANTA FE,Alcaldía Local de Santafé,625,96,208,grave
 212e8eb344374d3eb0c1b28156d6c7f3.jpg,4.7278,-74.0624,SUBA,Alcaldía Local de Suba,2799,39,1379,leve
 599b462ed60b4010abe8fc95d7842e3b.jpg,4.604,-74.0709,SANTA FE,Alcaldía Local de Santafé,294,54,433,leve
 d66208f053f14e2f95d9a1e2c46f3bd4.jpg,4.599821111111111,-74.07312277777777,CANDELARIA,Alcaldía Local de La Candelaria,163,111,733,leve
 3e3243a5e2614d19b11c09c9458fa8c2.jpg,4.5936,-74.0805,CANDELARIA,Alcaldía Local de La Candelaria,1216,42,1589,leve
 a2bcdd9296404e8895e90d7570bbe553.jpg,4.585351666666666,-74.13319805555555,TUNJUELITO,Alcaldía Local de Tunjuelito,2008,8,859,leve
-f0df934bb56c4b529705a065a80050bf.jpeg,4.7569,-74.089,SUBA,Alcaldía Local de Suba,1873,167,1342,leve
-17346f4fe1c94147b917fe2b6fba35a5.jpg,4.6291302777777785,-74.07243666666666,TEUSAQUILLO,Alcaldía Local de Teusaquillo,50,26,1644,leve
+f0df934bb56c4b529705a065a80050bf.jpeg,4.7569,-74.089,SUBA,Alcaldía Local de Suba,1873,167,1342,mediano
+17346f4fe1c94147b917fe2b6fba35a5.jpg,4.6291302777777785,-74.07243666666666,TEUSAQUILLO,Alcaldía Local de Teusaquillo,50,26,1644,mediano
 26cc0550cd6343a0987121635611ae85.jpg,4.601118055555555,-74.06825555555555,CANDELARIA,Alcaldía Local de La Candelaria,396,5,863,leve
-2c48d01b1fb5489e80ce41fd2793df1c.jpg,4.5936,-74.0779,CANDELARIA,Alcaldía Local de La Candelaria,998,225,1480,leve
+2c48d01b1fb5489e80ce41fd2793df1c.jpg,4.5936,-74.0779,CANDELARIA,Alcaldía Local de La Candelaria,998,225,1480,mediano
 11082e89acca4029acc23bfa2a5662c5.jpeg,4.704625,-74.03646111111111,USAQUEN,Alcaldía Local de Usaquén,1195,7,1279,leve
 308cba80c60543f89d65d3bba0c54100.jpeg,4.6026,-74.0665,CANDELARIA,Alcaldía Local de Santafé,595,54,931,grave
-664196b6a3e246a58d85dc9dc8f30a93.jpg,4.585319722222222,-74.13646166666668,TUNJUELITO,Alcaldía Local de Tunjuelito,2155,8,1208,leve
-378f9b3ab0ac449ba6e6d91541a2a150.jpeg,4.738733333333333,-74.06116388888888,SUBA,Alcaldía Local de Suba,2555,5,1642,leve
+664196b6a3e246a58d85dc9dc8f30a93.jpg,4.585319722222222,-74.13646166666668,TUNJUELITO,Alcaldía Local de Tunjuelito,2155,8,1208,mediano
+378f9b3ab0ac449ba6e6d91541a2a150.jpeg,4.738733333333333,-74.06116388888888,SUBA,Alcaldía Local de Suba,2555,5,1642,mediano
 76752027bf9b41548b35c4ee44730072.jpeg,4.696925,-74.07775833333334,SUBA,Alcaldía Local de Barrios Unidos,2385,78,1313,leve
-e5e4b74cde6f4b16a04e9e69caa916c7.jpeg,4.5446,-74.0983,SAN CRISTOBAL,Alcaldía Local de San Cristóbal,3095,1,4027,mediano
+e5e4b74cde6f4b16a04e9e69caa916c7.jpeg,4.5446,-74.0983,SAN CRISTOBAL,Alcaldía Local de San Cristóbal,3095,1,4027,grave
 3ef7fe35bdd64eb1abd8d5cd21bc1fa8.jpeg,4.751644444444445,-74.08322777777778,SUBA,Alcaldía Local de Suba,1216,0,1508,leve
 2f04f04b82834e0b9da79df1d2de3222.jpeg,4.7569,-74.089,SUBA,Alcaldía Local de Suba,1873,167,1342,leve
 7c98b060098f4382b787df320da64600.jpeg,4.68515567,-74.0704132,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1585,453,809,grave
 afb142f4bbad4ed0926f8bf6eb175e17.jpeg,4.751283333333333,-74.08271666666667,SUBA,Alcaldía Local de Suba,1182,2,1549,leve
 55075ff7832f40f6be89674409d7f54d.jpeg,4.688678,-74.042566,USAQUEN,Alcaldía Local de Usaquén,1425,3,912,leve
-35b3bd48ef7b461c8c50d2e567b905ae.jpeg,4.738683333333333,-74.05764722222222,SUBA,Alcaldía Local de Suba,2944,124,1781,leve
+35b3bd48ef7b461c8c50d2e567b905ae.jpeg,4.738683333333333,-74.05764722222222,SUBA,Alcaldía Local de Suba,2944,124,1781,mediano
 a4072bec623b4919bffeb4f740187160.jpg,4.6021,-74.0765,CANDELARIA,Alcaldía Local de La Candelaria,577,6,551,grave
 4340fcfaa921415f84face9def4d240d.jpg,4.7275,-74.0623,SUBA,Alcaldía Local de Suba,2825,11,1377,leve
 a05e826e30a5451b93c97d0c8807b15e.jpeg,4.6024,-74.0663,CANDELARIA,Alcaldía Local de Santafé,627,61,961,sin deteccion
-985ecf8f4752458a96249352accbceec.jpeg,4.68518451,-74.0649313,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,2081,127,774,leve
+985ecf8f4752458a96249352accbceec.jpeg,4.68518451,-74.0649313,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,2081,127,774,mediano
 abb2cd8e0d2d45a3b0516f241600e4c4.jpg,4.600200277777778,-74.06898972222221,CANDELARIA,Alcaldía Local de La Candelaria,299,16,882,leve
 abf3c8020be64da08eac3bf1df467360.jpg,4.585249999999999,-74.135315,TUNJUELITO,Alcaldía Local de Tunjuelito,2089,5,1087,leve
 f2f78f44fd6744b796967c03be05bc40.jpeg,4.665747222222223,-74.07926111111111,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1110,124,609,leve
 c2366e6c0d3848b287bcf928ef07608c.jpeg,4.680373,-74.040247,CHAPINERO,Alcaldía Local de Usaquén,1898,41,755,leve
-e937ec95df7f489bbf54e7819f26deda.jpeg,4.605333,-74.075966,SANTA FE,Alcaldía Local de Santafé,660,102,249,leve
+e937ec95df7f489bbf54e7819f26deda.jpeg,4.605333,-74.075966,SANTA FE,Alcaldía Local de Santafé,660,102,249,mediano
 9280450dd85d433da5b9a8cf6e55101f.jpeg,4.665747222222223,-74.07926111111111,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1110,124,609,leve
-7992c118ba914f14a4f2e73733f3da70.jpeg,4.605862,-74.073976,SANTA FE,Alcaldía Local de Santafé,432,5,59,leve
-5d2a32bf60e840a1a075d48351fefc39.jpeg,4.5443,-74.0987,SAN CRISTOBAL,Alcaldía Local de San Cristóbal,3144,8,4069,mediano
+7992c118ba914f14a4f2e73733f3da70.jpeg,4.605862,-74.073976,SANTA FE,Alcaldía Local de Santafé,432,5,59,mediano
+5d2a32bf60e840a1a075d48351fefc39.jpeg,4.5443,-74.0987,SAN CRISTOBAL,Alcaldía Local de San Cristóbal,3144,8,4069,grave
 f6bc89dd63a94fa69b29f8b0038e3636.jpg,4.599825833333333,-74.07197416666666,CANDELARIA,Alcaldía Local de La Candelaria,46,7,760,leve
 498d7499200440c2b8ee871da08d0de3.jpg,4.6037,-74.0705,SANTA FE,Alcaldía Local de Santafé,317,1,489,leve
 daf456d888e3401bb7bf4b68d9f2a7da.jpg,4.5935,-74.078,CANDELARIA,Alcaldía Local de La Candelaria,1014,230,1494,leve
 d79f672b8a1041a890924608c17724f0.jpg,4.6038,-74.0705,SANTA FE,Alcaldía Local de Santafé,306,5,482,leve
-416034af218a4744ba96e77640194d55.jpg,4.5976,-74.078,CANDELARIA,Alcaldía Local de La Candelaria,754,138,1070,mediano
-4def24a981ca446d8fc33e10f6065b7a.jpeg,4.734938888888889,-74.06414722222222,SUBA,Alcaldía Local de Suba,2304,157,1711,leve
+416034af218a4744ba96e77640194d55.jpg,4.5976,-74.078,CANDELARIA,Alcaldía Local de La Candelaria,754,138,1070,grave
+4def24a981ca446d8fc33e10f6065b7a.jpeg,4.734938888888889,-74.06414722222222,SUBA,Alcaldía Local de Suba,2304,157,1711,mediano
 c33736da66374fa9a26c532ff4e11bb0.jpg,4.7275,-74.0622,SUBA,Alcaldía Local de Suba,2835,15,1387,leve
 c1666789f3e84bc793e162f10d1e15c8.jpg,4.60229,-74.06617,CANDELARIA,Alcaldía Local de Santafé,645,66,979,leve
 d981a62289174690a93479e9c8903703.jpeg,4.697111111111111,-74.07788888888888,SUBA,Alcaldía Local de Barrios Unidos,2403,54,1334,leve
-e4d398d70b2d44c58e72c1eda9e7c222.jpeg,4.738683333333333,-74.05764722222222,SUBA,Alcaldía Local de Suba,2944,124,1781,leve
+e4d398d70b2d44c58e72c1eda9e7c222.jpeg,4.738683333333333,-74.05764722222222,SUBA,Alcaldía Local de Suba,2944,124,1781,mediano
 a035e75efe09478badaf481bb455530b.jpeg,4.665747222222223,-74.07926111111111,BARRIOS UNIDOS,Alcaldía Local de Barrios Unidos,1110,124,609,leve
-9252c7f6bd064c199ebab70b4a60c038.jpeg,4.739894444444444,-74.06566666666666,SUBA,Alcaldía Local de Suba,2048,6,1449,leve
+9252c7f6bd064c199ebab70b4a60c038.jpeg,4.739894444444444,-74.06566666666666,SUBA,Alcaldía Local de Suba,2048,6,1449,mediano
 c262d74f2dfc4cc2b446af00fe8e0a77.jpeg,4.690504,-74.042919,USAQUEN,Alcaldía Local de Usaquén,1372,144,878,leve
 fa2960d368e148ffa343b91be5393915.jpeg,4.738683333333333,-74.05764722222222,SUBA,Alcaldía Local de Suba,2944,124,1781,leve
 984e5aebc5f84b1b94767454fddd46b6.jpeg,4.697227777777778,-74.07805555555555,SUBA,Alcaldía Local de Barrios Unidos,2413,32,1347,leve
@@ -165,14 +171,112 @@ a249a95e742b4b2ba79dcf5a4c042056.jpeg,4.707794444444445,-74.03688055555556,USAQU
 8c99620cac654aae826fa22b2510a125.jpeg,4.605723,-74.073781,SANTA FE,Alcaldía Local de Santafé,413,6,78,grave
 f8a987228f9445439dab7dce7334e57a.jpg,4.63772,-74.09156527777778,TEUSAQUILLO,Alcaldía Local de Los Mártires,2148,112,1864,leve
 8dc3c61dccd84469b62e0a4cc43ddc41.jpg,4.5926,-74.0789,CANDELARIA,Alcaldía Local de La Candelaria,1155,202,1620,leve
-214814aebd77488e9ceee5266fe793e6.jpeg,4.7569,-74.089,SUBA,Alcaldía Local de Suba,1873,167,1342,mediano
+214814aebd77488e9ceee5266fe793e6.jpeg,4.7569,-74.089,SUBA,Alcaldía Local de Suba,1873,167,1342,grave
 9dc8b614485040a79f4f7ea027e5fcff.jpeg,4.752058333333333,-74.08370833333333,SUBA,Alcaldía Local de Suba,1258,7,1475,leve
 80c1ceef82704751b0526e2807cc2465.jpg,4.7274,-74.062,SUBA,Alcaldía Local de Suba,2859,12,1404,leve
-e71c51fbda4f4d33b3f7a36f9ba0e4d5.jpeg,4.6042,-74.0701,SANTA FE,Alcaldía Local de Santafé,260,8,495,mediano
+e71c51fbda4f4d33b3f7a36f9ba0e4d5.jpeg,4.6042,-74.0701,SANTA FE,Alcaldía Local de Santafé,260,8,495,grave
 e0a61408c2164736adc7ef84cbc047ce.jpeg,4.731572222222223,-74.06770277777777,SUBA,Alcaldía Local de Suba,2081,7,1176,leve
 98026dc40bfe42df9412eecf4ce486d5.jpeg,4.751644444444445,-74.08322777777778,SUBA,Alcaldía Local de Suba,1216,0,1508,leve
 0497126e15144bc795388968fab72125.jpg,4.602290550246835,-74.06618789769709,CANDELARIA,Alcaldía Local de Santafé,644,66,978,leve
 09de2a58a50d47a1b5a372e8d1ed9ae5.jpeg,4.6984,-74.0566,SUBA,Alcaldía Local de Usaquén,2817,140,213,leve
+b08ae24ee0ef4f02b9e1875013d3a78d.jpg,4.0,-74.0,,Alcaldía Local de Sumapaz,28636,46271,64961,leve
 9c704d54ee49487697ed07e2c9ea7aa2.jpg,4.585684722222222,-74.13678166666668,TUNJUELITO,Alcaldía Local de Tunjuelito,2208,5,1234,leve
 4e8f83db9b0c43a48feb783f2fb65030.jpg,4.7274,-74.062,SUBA,Alcaldía Local de Suba,2859,12,1404,leve
 bdf207d3483a4ee69a7a99cba50a30ff.jpeg,4.6024,-74.0662,CANDELARIA,Alcaldía Local de Santafé,634,56,971,sin deteccion
+jear1.jpg,4.6093374,-74.0687771,SANTA FE,Alcaldía Local de Santafé,344,14,593,leve
+jear2.jpg,4.675129999999999,-74.05143,CHAPINERO,Alcaldía Local de Usaquén,3129,35,1017,leve
+jear3.jpg,4.761764999999999,-74.0272266666666,USAQUEN,Alcaldía Local de Suba,6727,36,1927,mediano
+jear4.jpg,4.6858660066667,-74.03649,USAQUEN,Alcaldía Local de Usaquén,1164,25,739,leve
+jear5.jpg,4.0,-74.0,,Alcaldía Local de Sumapaz,28636,46271,64961,leve
+jear6.jpg,4.702846666666666,-74.03328,USAQUEN,Alcaldía Local de Usaquén,883,8,1096,mediano
+jear8.jpg,4.731368333333333,-74.028385,USAQUEN,Alcaldía Local de Usaquén,4027,0,2968,leve
+jear9.jpg,4.73222,-74.02802833333334,USAQUEN,Alcaldía Local de Usaquén,4124,2,2929,mediano
+jear10.jpg,4.686463333333333,-74.035985,USAQUEN,Alcaldía Local de Usaquén,1079,69,665,leve
+5d140090-2521-4249-bd4b-3700f358d609_anonymous.jpeg,4.6819,-74.0475,CHAPINERO,Alcaldía Local de Usaquén,2303,176,1055,leve
+TC_00001_anonymous 1.jpeg,4.700683333333333,-74.05848055555555,SUBA,Alcaldía Local de Usaquén,3065,59,541,leve
+2_anonymous.jpeg,4.6014581,-74.0715928,SANTA FE,Alcaldía Local de La Candelaria,147,76,607,grave
+c4c752f4-6059-40ec-9441-cae83afa966c_anonymous.jpg,4.7259,-74.0758,SUBA,Alcaldía Local de Suba,1877,103,398,grave
+TC_00009_anonymous 1.jpeg,4.723177777777778,-74.052375,SUBA,Alcaldía Local de Usaquén,3881,56,1467,leve
+TimePhoto_20260509_175731_anonymous.jpg,4.684687222222222,-74.14131777777779,FONTIBON,Alcaldía Local de Fontibón,1220,5,3075,leve
+TC_00001_anonymous 2.jpeg,4.663322222222223,-74.05814444,CHAPINERO,Alcaldía Local de Chapinero,2467,70,1667,leve
+IMG_8701_anonymous.JPG,4.765744444444445,-74.06101944444444,SUBA,Alcaldía Local de Suba,3773,770,1487,leve
+TC_00000_anonymous 1.jpeg,4.664311111111111,-74.05738888888888,CHAPINERO,Alcaldía Local de Chapinero,2597,90,1711,leve
+297e9151-5041-4a10-a1e2-14d12af9b555_anonymous.jpg,4.7259,-74.0758,SUBA,Alcaldía Local de Suba,1877,103,398,grave
+IMG_8700_anonymous.JPG,4.76595,-74.06108055555555,SUBA,Alcaldía Local de Suba,3786,785,1506,leve
+TC_00010_anonymous 1.jpeg,4.723177777777778,-74.052375,SUBA,Alcaldía Local de Usaquén,3881,56,1467,leve
+TC_00003_anonymous.jpeg,4.701247222222222,-74.06184444444445,SUBA,Alcaldía Local de Usaquén,3443,59,846,leve
+c8f3c5a5-386f-4f8a-ad75-eef697982c89_anonymous.jpeg,4.6847,-74.0468,USAQUEN,Alcaldía Local de Usaquén,2056,19,1164,leve
+hueco1_anonymous.jpg,4.8955468,-74.0462196,,Alcaldía Local de Suba,17633,8412,14793,grave
+1_anonymous.jpeg,4.700042,-74.062165,SUBA,Alcaldía Local de Barrios Unidos,3421,13,803,grave
+TimePhoto_20260509_164752_anonymous.jpg,4.6825844,-74.1409562,FONTIBON,Alcaldía Local de Fontibón,1007,126,2840,mediano
+IMG_8703_anonymous.JPG,4.765744444444445,-74.06101944444444,SUBA,Alcaldía Local de Suba,3773,770,1487,leve
+TC_00000_anonymous.jpeg,4.664311111111111,-74.05738888888888,CHAPINERO,Alcaldía Local de Chapinero,2597,90,1711,leve
+hueco3_anonymous.jpg,4.893571,-74.0524314,,Alcaldía Local de Suba,17267,8331,14598,grave
+TC_00004_anonymous.jpeg,4.698102777777778,-74.05975277777777,SUBA,Alcaldía Local de Usaquén,3161,235,470,leve
+b1bd0ef8-462a-4e7c-95cc-0d687eeff5e9_anonymous.jpeg,4.6808,-74.0473,CHAPINERO,Alcaldía Local de Usaquén,2366,252,941,leve
+70e698ed-cdd0-4649-a64f-9a60ce0a8ed9_anonymous.jpg,4.726,-74.0755,SUBA,Alcaldía Local de Suba,1884,70,390,grave
+TimePhoto_20260510_123328_anonymous.jpg,4.67410372,-74.11219775,ENGATIVA,Alcaldía Local de Engativá,2144,111,668,leve
+3_anonymous.jpeg,4.6480312,-74.0606606,CHAPINERO,Alcaldía Local de Chapinero,803,38,502,sin deteccion
+TC_00008_anonymous 1.jpeg,4.723302777777778,-74.05254444444444,SUBA,Alcaldía Local de Usaquén,3903,50,1479,mediano
+282300f9-e8ae-4e52-96fb-b31c5076cd81_anonymous.jpg,4.726,-74.0755,SUBA,Alcaldía Local de Suba,1884,70,390,grave
+IMG_8704_anonymous.JPG,4.765213888888889,-74.06022777777777,SUBA,Alcaldía Local de Suba,3791,774,1462,leve
+TC_00005_anonymous.jpeg,4.699552777777778,-74.05912777777777,SUBA,Alcaldía Local de Usaquén,3113,65,494,leve
+TimePhoto_20260510_123439_anonymous.jpg,4.67457853,-74.11241195,ENGATIVA,Alcaldía Local de Engativá,2126,92,712,mediano
+hueco4_anonymous.jpg,4.8896833,-74.0478084,,Alcaldía Local de Suba,16961,7803,14148,grave
+76f69344-edc2-478a-ba90-4885ffa2d82e_anonymous.jpeg,4.6799,-74.0503,CHAPINERO,Alcaldía Local de Usaquén,2684,3,948,leve
+4_anonymous.jpeg,4.6507754,-74.0594779,CHAPINERO,Alcaldía Local de Chapinero,1129,1,734,sin deteccion
+TC_00007_anonymous 1.jpeg,4.723302777777778,-74.05254444444444,SUBA,Alcaldía Local de Usaquén,3903,50,1479,mediano
+TC_00001_anonymous 3.jpeg,4.663322222222223,-74.05814444444444,CHAPINERO,Alcaldía Local de Chapinero,2467,70,1667,leve
+TC_00001_anonymous.jpeg,4.663322222222223,-74.05814444444444,CHAPINERO,Alcaldía Local de Chapinero,2467,70,1667,leve
+TC_00007_anonymous.jpeg,4.699952777777778,-74.0617,SUBA,Alcaldía Local de Usaquén,3402,66,753,leve
+TimePhoto_20260510_123821_anonymous.jpg,4.67739987,-74.11379724,ENGATIVA,Alcaldía Local de Engativá,2060,5,1011,mediano
+6327e50d-ec8e-4061-8c40-d5ef62ad59b4_anonymous.jpg,4.726,-74.0755,SUBA,Alcaldía Local de Suba,1884,70,390,sin deteccion
+hueco5_anonymous.jpg,4.8904823,-74.0474721,,Alcaldía Local de Suba,17056,7883,14236,grave
+5_anonymous.jpeg,4.6489036,-74.0592006,CHAPINERO,Alcaldía Local de Chapinero,976,1,685,leve
+TC_00006_anonymous 1.jpeg,4.723302777777778,-74.05254444444444,SUBA,Alcaldía Local de Usaquén,3903,50,1479,mediano
+20048e52-294e-4b13-acba-6fd1537d3178_anonymous.jpeg,4.6789,-74.0547,CHAPINERO,Alcaldía Local de Barrios Unidos,2949,167,645,leve
+IMG_8706_anonymous.JPG,4.764780555555555,-74.06036388888889,SUBA,Alcaldía Local de Suba,3747,727,1412,leve
+TimePhoto_20260510_124736_anonymous.jpg,4.67464688,-74.10915198,ENGATIVA,Alcaldía Local de Engativá,1866,17,426,mediano
+ab11bb49-04c8-495c-b6a2-bb6552cd6899_anonymous.jpg,4.7249,-74.0817,SUBA,Alcaldía Local de Suba,1766,754,901,mediano
+hueco6_anonymous.jpg,4.8892042,-74.0480596,,Alcaldía Local de Suba,16903,7756,14096,grave
+6_anonymous.jpeg,4.6517086,-74.0568709,CHAPINERO,Alcaldía Local de Chapinero,1380,23,1037,grave
+TC_00000_anonymous 2.jpeg,4.664311111111111,-74.05738888888888,CHAPINERO,Alcaldía Local de Chapinero,2597,90,1711,leve
+TC_00009_anonymous.jpeg,4.702297222222223,-74.06233888888889,SUBA,Alcaldía Local de Usaquén,3522,164,962,leve
+IMG_8707_anonymous.JPG,4.7646138888888885,-74.0604861111111,SUBA,Alcaldía Local de Suba,3724,704,1390,leve
+0bfd059b-5552-4cf5-bd34-c7c026acc16e_anonymous.jpg,4.7253,-74.0796,SUBA,Alcaldía Local de Suba,1774,523,693,sin deteccion
+TC_00008_anonymous.jpeg,4.701936111111111,-74.0624,SUBA,Alcaldía Local de Usaquén,3520,124,941,leve
+61e2f3aa-82a6-4228-b6f6-f1c99b25b0c1_anonymous.jpeg,4.6778,-74.0479,CHAPINERO,Alcaldía Local de Usaquén,2644,19,753,leve
+916aa224-30b1-4777-a97c-b3592c5fe869_anonymous.jpeg,4.6789,-74.0547,CHAPINERO,Alcaldía Local de Barrios Unidos,2949,167,645,leve
+hueco7_anonymous.jpg,4.8986753,-74.0434382,,Alcaldía Local de Suba,18044,8715,15139,grave
+IMG_8708_anonymous.JPG,4.7646138888888885,-74.0604861111111,SUBA,Alcaldía Local de Suba,3724,704,1390,leve
+TC_00005_anonymous 2.jpeg,4.723302777777778,-74.05254444444444,SUBA,Alcaldía Local de Usaquén,3903,50,1479,mediano
+TC_00000_anonymous 3.jpeg,4.664311111111111,-74.05738888888888,CHAPINERO,Alcaldía Local de Chapinero,2597,90,1711,leve
+TC_00004_anonymous 2.jpeg,4.723361111111111,-74.05276388888889,SUBA,Alcaldía Local de Usaquén,3923,51,1483,leve
+7_anonymous.jpeg,4.6531641,-74.0562105,CHAPINERO,Alcaldía Local de Chapinero,1552,1,1181,grave
+TimePhoto_20260510_161404_anonymous.jpg,4.70308402,-74.05918332,SUBA,Alcaldía Local de Usaquén,3205,307,800,leve
+TC_00015_anonymous.jpeg,4.701058333333333,-74.06835277777778,SUBA,Alcaldía Local de Barrios Unidos,3148,0,1478,leve
+TimePhoto_20260510_161620_anonymous.jpg,4.70345035,-74.06293558,SUBA,Alcaldía Local de Usaquén,3617,264,1097,leve
+IMG_8709_anonymous.JPG,4.7646138888888885,-74.0604861111111,SUBA,Alcaldía Local de Suba,3724,704,1390,leve
+c946813e-a677-4417-8369-fe2d96b60e17_anonymous.jpeg,4.6769,-74.0471,CHAPINERO,Alcaldía Local de Usaquén,2658,67,623,leve
+9915b1a2-7ea2-4b4e-8787-efff9f4dfad7_anonymous.jpg,4.7253,-74.0796,SUBA,Alcaldía Local de Suba,1774,523,693,grave
+hueco8_anonymous.jpeg,4.702407,-74.062278,SUBA,Alcaldía Local de Usaquén,3518,177,965,grave
+8_anonymous.jpeg,4.6547079,-74.0554176,CHAPINERO,Alcaldía Local de Chapinero,1741,0,1350,grave
+TC_00001_anonymous 4.jpeg,4.663322222222223,-74.05814444444444,CHAPINERO,Alcaldía Local de Chapinero,2467,70,1667,leve
+TC_00017_anonymous.jpeg,4.700694444444444,-74.06820555555555,SUBA,Alcaldía Local de Barrios Unidos,3120,41,1450,leve
+2f762052-db02-467d-8a05-edc5416e1b94_anonymous.jpg,4.7253,-74.0796,SUBA,Alcaldía Local de Suba,1774,523,693,mediano
+WhatsApp Image 2026-05-10 at 20.06.38_anonymous.jpeg,4.695556,-74.060556,SUBA,Alcaldía Local de Barrios Unidos,3170,231,540,leve
+TC_00002_anonymous 1.jpeg,4.722497222222223,-74.05378611111111,SUBA,Alcaldía Local de Usaquén,3918,49,1384,leve
+hueco9_anonymous.jpeg,4.700902,-74.059893,SUBA,Alcaldía Local de Usaquén,3224,57,659,mediano
+15ab0e6e-7b37-4466-bffb-1587e52d1ee3_anonymous.jpeg,4.6789,-74.0547,CHAPINERO,Alcaldía Local de Barrios Unidos,2949,167,645,leve
+TC_00000_anonymous 4.jpeg,4.664311111111111,-74.05738888888888,CHAPINERO,Alcaldía Local de Chapinero,2597,90,1711,leve
+9_anonymous.jpeg,4.6631732,-74.0554176,CHAPINERO,Alcaldía Local de Chapinero,2557,67,1872,sin deteccion
+IMG_8711_anonymous.JPG,4.763827777777778,-74.06105,SUBA,Alcaldía Local de Suba,3618,597,1286,leve
+WhatsApp Image 2026-05-10 at 20.06.44_anonymous.jpeg,4.695556,-74.060556,SUBA,Alcaldía Local de Barrios Unidos,3170,231,540,mediano
+10_anonymous.jpeg,4.663678,-74.0600774,CHAPINERO,Alcaldía Local de Chapinero,2451,20,1453,sin deteccion
+297e9151-5041-4a10-a1e2-14d12af9b555_anonymous 2.jpg,4.725,-74.0813,SUBA,Alcaldía Local de Suba,1763,710,861,grave
+TC_00001_anonymous 1 2.jpeg,4.721605555555556,-74.0542,SUBA,Alcaldía Local de Usaquén,3872,12,1287,leve
+TC_00018_anonymous.jpeg,4.7013750000000005,-74.06788611111111,SUBA,Alcaldía Local de Barrios Unidos,3203,5,1442,leve
+hueco10_anonymous.jpeg,4.700042,-74.062165,SUBA,Alcaldía Local de Barrios Unidos,3421,13,803,grave
+IMG_8712_anonymous.JPG,4.763019444444445,-74.0612861111111,SUBA,Alcaldía Local de Suba,3537,510,1193,leve
+c8f3c5a5-386f-4f8a-ad75-eef697982c89_anonymous 2.jpeg,4.6847,-74.0468,USAQUEN,Alcaldía Local de Usaquén,2056,19,1164,leve
+TC_00001_anonymous 2 2.jpeg,4.663322222222223,-74.05814444444444,CHAPINERO,Alcaldía Local de Chapinero,2467,70,1667,leve
