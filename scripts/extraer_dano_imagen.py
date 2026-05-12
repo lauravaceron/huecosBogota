@@ -8,10 +8,8 @@ from ultralytics import YOLO
 warnings.filterwarnings('ignore')
 
 
-# ──────────────────────────────────────────
-# Rutas
-# ──────────────────────────────────────────
 
+#rutas
 post_training_files_path = "../ModeloAnalisisImagenYolo"
 best_model_path          = os.path.join(post_training_files_path, "best.pt")
 custom_images_path       = "../DataSetHuecosBogota"
@@ -23,9 +21,7 @@ os.makedirs(output_path, exist_ok=True)
 best_model = YOLO(best_model_path)
 
 
-# ──────────────────────────────────────────
 # Cargar imágenes
-# ──────────────────────────────────────────
 
 image_files = [
     f for f in os.listdir(custom_images_path)
@@ -98,7 +94,7 @@ with open(csv_path, mode="w", newline="", encoding="utf-8") as f:
     writer.writeheader()
     writer.writerows(resultados)
 
-# Resumen
+
 from collections import Counter
 conteo = Counter(r["gravedad"] for r in resultados)
 print(f"\nRESUMEN")

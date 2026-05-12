@@ -1,10 +1,5 @@
 import pandas as pd
 
-
-# ──────────────────────────────────────────
-# Cargar archivos
-# ──────────────────────────────────────────
-
 print("\n[1/3] Cargando archivos...")
 df_integrados = pd.read_csv("../datos/datos_integrados.csv")
 df_gravedad   = pd.read_csv("../datos/resultados_huecos.csv")
@@ -12,10 +7,6 @@ df_gravedad   = pd.read_csv("../datos/resultados_huecos.csv")
 print(f"      datos_integrados  : {len(df_integrados)} filas")
 print(f"      resultados_huecos : {len(df_gravedad)} filas")
 
-
-# ──────────────────────────────────────────
-# Unir por nombre de archivo
-# ──────────────────────────────────────────
 
 print("\n[2/3] Uniendo por nombre de archivo...")
 
@@ -34,14 +25,11 @@ print(f"      Con gravedad      : {len(df_final) - sin_gravedad}")
 print(f"      Sin gravedad      : {sin_gravedad} (no procesadas por YOLO)")
 
 
-# ──────────────────────────────────────────
 # Guardar CSV final
-# ──────────────────────────────────────────
-
 print("\n[3/3] Guardando dataset_final.csv...")
 df_final.to_csv("../datos/dataset_final.csv", index=False, encoding="utf-8")
 
-# Resumen
+
 conteo = df_final["gravedad"].value_counts()
 print(f"\nRESUMEN FINAL")
 print(f"  Total registros  : {len(df_final)}")

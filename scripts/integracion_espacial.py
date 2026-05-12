@@ -26,9 +26,6 @@ CRS        = "EPSG:4326"
 CRS_METROS = "EPSG:3116"
 
 
-# ──────────────────────────────────────────
-# PASO 1 — Cargar y limpiar coordenadas
-# ──────────────────────────────────────────
 
 def limpiar_coord(valor):
     """Limpia coordenadas con formatos inconsistentes y devuelve float o None."""
@@ -56,7 +53,6 @@ df["longitud"] = df["longitud"].apply(limpiar_coord)
 
 df = df.dropna(subset=["latitud", "longitud"])
 
-# Longitud positiva en Colombia es error — corregir signo
 df.loc[df["longitud"] > 0, "longitud"] = -df.loc[df["longitud"] > 0, "longitud"]
 
 # Filtrar rango geográfico de Bogotá
@@ -71,9 +67,7 @@ print(f"      Válidas          : {len(df)}")
 print(f"      Descartadas      : {descartadas} (coordenadas inválidas o fuera de Bogotá)")
 
 
-# ──────────────────────────────────────────
-# PASO 2 — Cruzar con localidades
-# ──────────────────────────────────────────
+# Cruzar con localidades
 
 print("\n[2/5] Cruzando con localidades...")
 
@@ -100,9 +94,8 @@ if sin_loc > 0:
     print(f"      Sin localidad    : {sin_loc} (fuera del perímetro)")
 
 
-# ──────────────────────────────────────────
-# PASO 3 — Distancia a alcaldía más cercana
-# ──────────────────────────────────────────
+# Distancia a alcaldía más cercana
+
 
 print("\n[3/5] Calculando distancia a alcaldías...")
 
@@ -137,10 +130,7 @@ gdf_danos["dist_alcaldia_m"]  = distancias_alc
 print(f"      Distancia promedio: {pd.Series(distancias_alc).mean():.0f} m")
 
 
-# ──────────────────────────────────────────
-# PASO 4 — Distancia a ruta troncal más cercana
-# ──────────────────────────────────────────
-
+# Distancia a ruta troncal más cercana
 print("\n[4/5] Calculando distancia a rutas troncales...")
 
 troncales    = gpd.read_file(RUTA_TRONCALES).to_crs(CRS_METROS)
@@ -153,10 +143,7 @@ gdf_danos["dist_troncal_m"] = dist_troncal
 print(f"      Distancia promedio: {pd.Series(dist_troncal).mean():.0f} m")
 
 
-# ──────────────────────────────────────────
-# PASO 5 — Distancia a cámara más cercana
-# ──────────────────────────────────────────
-
+#Distancia a cámara más cercana
 print("\n[5/5] Calculando distancia a cámaras...")
 
 camaras_df = pd.read_csv(RUTA_CAMARAS, encoding="utf-8-sig").dropna(subset=["LATITUD", "LONGITUD"])
@@ -175,10 +162,7 @@ gdf_danos["dist_camara_m"] = dist_camara
 print(f"      Distancia promedio: {pd.Series(dist_camara).mean():.0f} m")
 
 
-# ──────────────────────────────────────────
-# Guardar CSV final
-# ──────────────────────────────────────────
-
+#csv final
 columnas_finales = [
     "archivo", "latitud", "longitud",
     "localidad", "alcaldia_cercana", "dist_alcaldia_m",

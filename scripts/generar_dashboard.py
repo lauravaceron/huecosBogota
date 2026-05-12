@@ -1,9 +1,3 @@
-"""
-Generador del dashboard HTML — Malla Vial Bogotá
-Lee dataset_final.csv y genera dashboard_bogota.html con fotos desde GitHub.
-Uso (desde carpeta scripts/): python generar_dashboard.py
-"""
-
 import json
 import math
 import csv
